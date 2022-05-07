@@ -133,20 +133,15 @@ Matter.Plugin.register(Part2Body);
 module.exports = Part2Body;
 
 /**
- * @namespace Matter.Body
- * @see http://brm.io/matter-js/docs/classes/Body.html
- */
-
-/**
  * Function to get the top parent of a part.
  * @function topParent
- * @param {Matter.Body} body The body part.
- * @returns {Matter.Body} body The top body containing the part.
+ * @param {Matter.Body} part The body part.
+ * @returns {Matter.Body} parent The top body containing the part.
  */
-function topParent(body) {
-  var parent = body.parent;
+function topParent(part) {
+  var parent = part.parent;
 
-  if (parent != body) {
+  if (parent != part) {
     parent = topParent(parent);
   }
 
