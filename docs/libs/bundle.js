@@ -1,5 +1,5 @@
 /*!
- * matter-part2body 0.0.1 by Faris Abouaki 2022-05-07
+ * matter-part2body 0.0.1 by Faris Abouaki 2022-05-15
  * https://github.com/Fifourche/matter-part2body
  * License MIT
  */
