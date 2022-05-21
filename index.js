@@ -10,7 +10,7 @@ const Part2Body = {
   // plugin meta
   name: 'matter-part2body', // PLUGIN_NAME
   version: '0.0.1', // PLUGIN_VERSION
-  for: 'matter-js@^0.12.0',
+  for: 'matter-js@^0.16.1',
 
   // installs the plugin where `base` is `Matter`
   // you should not need to call this directly.
